@@ -1,11 +1,14 @@
----
----
-
-@import "jekyll-theme-minimal";
+--- --- @import "jekyll-theme-minimal";
 
 @media screen and (max-height: 715px) {
   footer {
     position: static;
     width: 100%;
   }
+}
+
+html {
+  margin: 0,
+    padding:0,
+    box-sizing:border-box,
 }
